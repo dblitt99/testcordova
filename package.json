@@ -1,0 +1,39 @@
+{
+  "name": "com.dblitt.testcordova",
+  "displayName": "TestCordova",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^5.0.1",
+    "cordova-plugin-badge": "0.8.8",
+    "cordova-plugin-camera": "4.0.3",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-dialogs": "2.0.1",
+    "cordova-plugin-local-notification": "0.9.0-beta.2"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-local-notification": {}
+    },
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ]
+  }
+}

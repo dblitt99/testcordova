@@ -1,0 +1,31 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
+    }
+  }
+}
