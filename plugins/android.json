@@ -21,6 +21,9 @@
     },
     "cordova-plugin-local-notification": {
       "PACKAGE_NAME": "com.dblitt.testcordova"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.dblitt.testcordova"
     }
   },
   "dependent_plugins": {

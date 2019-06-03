@@ -29,15 +29,17 @@ var app = {
     onDeviceReady: function() {
         // this.receivedEvent('deviceready');
 
-        var p = document.querySelector('#device p');
-        p.innerHTML = device.cordova + '<br>'
-                    + device.platform + '<br>'
-                    + device.model + '<br>'
-                    + device.uuid + '<br>'
-                    + device.version + '<br>'
-                    + device.manufacturer + '<br>'
-                    + device.isVirtual + '<br>'
-                    + device.serial + '<br>';
+        var p = document.querySelector('#deviced');
+        p.innerHTML = '<table>'
+                    + '<tr><td>cordova</td><td>' + device.cordova + '</td></tr>'
+                    + '<tr><td>platform</td><td>' + device.platform + '</td></tr>'
+                    + '<tr><td>model</td><td>' + device.model + '</td></tr>'
+                    + '<tr><td>uuid</td><td>' + device.uuid + '</td></tr>'
+                    + '<tr><td>version</td><td>' + device.version + '</td></tr>'
+                    + '<tr><td>manufacturer</td><td>' + device.manufacturer + '</td></tr>'
+                    + '<tr><td>isVirtual</td><td>' + device.isVirtual + '</td></tr>'
+                    + '<tr><td>serial</td><td>' + device.serial + '</td></tr>'
+                    + '</table>';
 
       navigator.notification.confirm('Do you want to schedule a notification in 5 secs?', (num) => {
         if (num === 1) {
